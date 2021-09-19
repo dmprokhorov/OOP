@@ -1,2 +1,0 @@
-20 Rectangle Trapezoid Rhombus
-lab1 done
