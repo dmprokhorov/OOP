@@ -1,0 +1,16 @@
+{
+  "variant": 19,
+  "figures": [
+    "Rectangle",
+    "Trapezoid",
+    "Rhombus"
+  ],
+  "containers": [
+    "TNaryTree",
+    "TVector"
+  ],
+  "finished_labs": {
+    "lab1": "lab1",
+    "lab2": "lab2"
+  }
+}
