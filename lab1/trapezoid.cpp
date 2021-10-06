@@ -1,4 +1,4 @@
-#include "Trapezoid.h"
+#include "trapezoid.h"
 
 Trapezoid::Trapezoid() : a(0.0, 0.0), b(0.0, 0.0), c(0.0, 0.0), d(0.0, 0.0)
 {
