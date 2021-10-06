@@ -1,6 +1,6 @@
 #ifndef RHOMBUS_H
 #define RHOMBUS_H
-#include "Figure.h"
+#include "figure.h"
 
 class Rhombus : public Figure
 {
