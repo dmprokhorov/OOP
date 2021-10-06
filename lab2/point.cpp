@@ -1,4 +1,4 @@
-#include "Point.h"
+#include "point.h"
 
 Point::Point() : x_(0.0), y_(0.0) {}
 
