@@ -1,6 +1,6 @@
-﻿#include "Rectangle.h"
-#include "Trapezoid.h"
-#include "Rhombus.h"
+﻿#include "rectangle.h"
+#include "trapezoid.h"
+#include "rhombus.h"
 int main()
 {
     Rectangle rec1(std::cin);
