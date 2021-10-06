@@ -1,6 +1,6 @@
 #ifndef TRAPEZOID_H
 #define TRAPEZOID_H
-#include "Figure.h"
+#include "figure.h"
 #include <algorithm>
 class Trapezoid : public Figure
 {
