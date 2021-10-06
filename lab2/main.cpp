@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include "TNaryTree.h"
+#include "tnarytree.h"
 int main()
 {
     double S = 0.;
