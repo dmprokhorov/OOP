@@ -1,4 +1,4 @@
-#include "TNaryTree.h"
+#include "tnarytree.h"
 TNaryTree::TNaryTree()
 {
 	this->N = 0;
