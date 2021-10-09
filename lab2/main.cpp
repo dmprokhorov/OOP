@@ -89,8 +89,6 @@ int main()
     t2.Clear();
 
     system("pause");
-    int a = 3;
-    int b = 4;
     return 0;
 }
 
