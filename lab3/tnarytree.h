@@ -16,7 +16,6 @@ private:
 		std::shared_ptr<Node> child;
 		std::shared_ptr<Node> left_brother;
 		std::shared_ptr<Node> right_brother;
-		void abn();
 		~Node();
 	};
 	std::shared_ptr<Node> root;
