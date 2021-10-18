@@ -1,6 +1,6 @@
 #ifndef TNARYTREE_H
 #define TNARYTREE_H
-#include "Rectangle.h"
+#include "rectangle.h"
 #include <exception>
 #include <string>
 
