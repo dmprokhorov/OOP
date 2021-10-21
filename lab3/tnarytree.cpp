@@ -68,11 +68,6 @@ bool TNaryTree::Empty()
 	return true;
 }
 
-void TNaryTree::Node::abn()
-{
-
-}
-
 Rectangle TNaryTree::getItem(std::string&& tree_path)
 {
 	try
