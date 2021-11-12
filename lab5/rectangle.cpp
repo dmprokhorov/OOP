@@ -46,7 +46,7 @@ std::istream& operator >>(std::istream& is, Rectangle& rectangle)
 
 std::ostream& operator <<(std::ostream& os, Rectangle rectangle)
 {
-	os << rectangle.a << " " << rectangle.b << " " << rectangle.c << " " << rectangle.d << "\n";
+	os << rectangle.a << " " << rectangle.b << " " << rectangle.c << " " << rectangle.d;
 	return os;
 };
 
