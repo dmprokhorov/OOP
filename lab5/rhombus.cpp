@@ -47,7 +47,7 @@ std::istream& operator >>(std::istream& is, Rhombus& rhombus)
 
 std::ostream& operator <<(std::ostream& os, Rhombus rhombus)
 {
-	os << rhombus.a << " " << rhombus.b << " " << rhombus.c << " " << rhombus.d << "\n";
+	os << rhombus.a << " " << rhombus.b << " " << rhombus.c << " " << rhombus.d;
 	return os;
 };
 
