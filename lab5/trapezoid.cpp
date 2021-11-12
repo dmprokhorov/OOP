@@ -56,7 +56,7 @@ std::istream& operator >>(std::istream& is, Trapezoid& trapezoid)
 
 std::ostream& operator <<(std::ostream& os, Trapezoid trapezoid)
 {
-	os << trapezoid.a << " " << trapezoid.b << " " << trapezoid.c << " " << trapezoid.d << "\n";
+	os << trapezoid.a << " " << trapezoid.b << " " << trapezoid.c << " " << trapezoid.d;
 	return os;
 };
 
