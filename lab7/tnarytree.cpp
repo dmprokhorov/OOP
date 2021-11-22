@@ -387,6 +387,7 @@ template <class T> void TNaryTree<T>::Remove(bool v, std::string&& tree_path, in
 				{
 					DeleteSons(root);
 					root->vector.Delete();
+					--amount;
 					root = nullptr;
 					return;
 				}
