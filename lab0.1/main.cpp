@@ -10,6 +10,8 @@ int main()
 	std::cout << address1 << "\n";
 	Address address156(std::cin);
 	std::cout << address156 << "\n";
+	address156 = Address(std::cin);
+	std::cout << address156 << "\n";
 	std::string city2 = "Moscow", street2 = "Arbat";
 	unsigned house2 = 4, flat2 = 19;
 	Address address2(city2, street2, house2, flat2);
