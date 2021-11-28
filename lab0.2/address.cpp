@@ -155,7 +155,7 @@ Address operator "" _address(const char* str, size_t size)
 		}
 	} while (n != std::string::npos);
 	parts.push_back(rem(string));
-	if (parts.size() < 4)
+	if (parts.size() != 4)
 	{
 		return Address("", "", 0, 0);
 	}
@@ -181,7 +181,7 @@ std::vector<std::string> operator "" _city_and_street(const char* str, size_t si
 		}
 	} while (n != std::string::npos);
 	parts.push_back(rem(string));
-	if (parts.size() < 2)
+	if (parts.size() != 2)
 	{
 		return {"", ""};
 	}
