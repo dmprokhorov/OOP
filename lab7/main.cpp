@@ -2,9 +2,6 @@
 #include "tnarytree.h"
 int main()
 {
-   
-
-
     TNaryTree<Rectangle> t1(4);
     std::cout << t1 << "\n";
     t1.Update(Rectangle(std::cin), 0, "");
